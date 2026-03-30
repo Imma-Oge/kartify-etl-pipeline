@@ -9,7 +9,7 @@ load_dotenv()
 # source credentials
 def get_postgres_engine():
     url=sa_URL.create(
-    driver=("postgresql+psycopg2"),
+    drivername=("postgresql+psycopg2"),
     username=os.getenv("db_user"),
     password=os.getenv("db_password"),
     host=os.getenv("db_host"),
