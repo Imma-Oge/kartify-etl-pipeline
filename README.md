@@ -40,7 +40,8 @@ To design and implement an end-to-end ETL pipeline that:
 * Ensures data quality, consistency, and scalability
 
 ## Architecture Diagram
-Key Features:
+
+## Key Features:
 * End-to-end ETL pipeline for e-commerce data processing
 * Modular Python scripts for extraction, transformation, and loading
 * Secure configuration using environment variables (```.env```)
