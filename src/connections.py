@@ -31,3 +31,15 @@ def get_snowflake_engine():
     schema=os.getenv("snowflake_schema")
     )
     return create_engine(url)
+
+
+def get_snowflake_engine2():
+    url=URL(
+    user=os.getenv("snowflake_user"),
+    password=os.getenv("snowflake_password"),
+    account=os.getenv("snowflake_account"),
+    warehouse=os.getenv("snowflake_warehouse"),
+    database=os.getenv("snowflake_database"),
+    schema=os.getenv("snowflake_schema1")
+    )
+    return create_engine(url)
