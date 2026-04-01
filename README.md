@@ -40,7 +40,7 @@ To design and implement an end-to-end ETL pipeline that:
 * Ensures data quality, consistency, and scalability
 
 ## Architecture Diagram
-![Alt Text](path/to/your-diagram.png)
+![Alt Text](https://github.com/Imma-Oge/kartify-etl-pipeline/blob/main/kartify.PNG)
 
 ## Key Features:
 * End-to-end ETL pipeline for e-commerce data processing
