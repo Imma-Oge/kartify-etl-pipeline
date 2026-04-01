@@ -40,6 +40,7 @@ To design and implement an end-to-end ETL pipeline that:
 * Ensures data quality, consistency, and scalability
 
 ## Architecture Diagram
+![Alt Text](path/to/your-diagram.png)
 
 ## Key Features:
 * End-to-end ETL pipeline for e-commerce data processing
