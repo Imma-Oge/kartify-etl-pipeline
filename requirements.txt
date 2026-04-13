@@ -1,1 +1,6 @@
 
+python-dotenv
+snowflake-sqlalchemy
+sqlalchemy
+pandas
+psycopg2-binary

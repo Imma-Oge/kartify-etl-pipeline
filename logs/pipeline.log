@@ -1,1 +1,31 @@
 
+2026-04-13 08:23:53,023 | main | INFO | Starting ETL pipeline
+2026-04-13 08:23:53,023 | main | CRITICAL | Pipeline failed: name 'create_postgres_engine' is not defined
+2026-04-13 08:25:09,862 | main | INFO | Starting ETL pipeline
+2026-04-13 08:25:09,862 | main | CRITICAL | Pipeline failed: get_postgres_engine() takes 0 positional arguments but 1 was given
+2026-04-13 08:26:21,437 | main | INFO | Starting ETL pipeline
+2026-04-13 08:26:21,437 | main | CRITICAL | Pipeline failed: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-04-13 08:48:34,207 | main | INFO | Starting ETL pipeline
+2026-04-13 08:48:34,298 | queries | INFO | Created queries for 10 tables
+2026-04-13 08:48:34,298 | utils | INFO | Added stg_ prefix to table names
+2026-04-13 08:48:34,298 | extract | INFO | Extracting stg_categories
+2026-04-13 08:48:39,000 | extract | INFO | Extracted 5 rows from stg_categories
+2026-04-13 08:48:39,000 | extract | INFO | Extracting stg_products
+2026-04-13 08:48:39,818 | extract | INFO | Extracted 15 rows from stg_products
+2026-04-13 08:48:39,818 | extract | INFO | Extracting stg_customers
+2026-04-13 08:48:40,844 | extract | INFO | Extracted 128 rows from stg_customers
+2026-04-13 08:48:40,844 | extract | INFO | Extracting stg_orders
+2026-04-13 08:48:42,173 | extract | INFO | Extracted 567 rows from stg_orders
+2026-04-13 08:48:42,173 | extract | INFO | Extracting stg_coupons
+2026-04-13 08:48:42,992 | extract | INFO | Extracted 3 rows from stg_coupons
+2026-04-13 08:48:42,993 | extract | INFO | Extracting stg_order_items
+2026-04-13 08:48:44,221 | extract | INFO | Extracted 1679 rows from stg_order_items
+2026-04-13 08:48:44,221 | extract | INFO | Extracting stg_payments
+2026-04-13 08:48:45,245 | extract | INFO | Extracted 567 rows from stg_payments
+2026-04-13 08:48:45,246 | extract | INFO | Extracting stg_shipping
+2026-04-13 08:48:46,373 | extract | INFO | Extracted 567 rows from stg_shipping
+2026-04-13 08:48:46,373 | extract | INFO | Extracting stg_inventory
+2026-04-13 08:48:47,190 | extract | INFO | Extracted 15 rows from stg_inventory
+2026-04-13 08:48:47,190 | extract | INFO | Extracting stg_reviews
+2026-04-13 08:48:48,010 | extract | INFO | Extracted 225 rows from stg_reviews
+2026-04-13 08:48:48,010 | main | INFO | ETL pipeline completed successfully
